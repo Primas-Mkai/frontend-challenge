@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #131518;
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background: linear-gradient(to right, #232A34, #181E27);
+    width: 327px;
+    padding: 28px 24px;
+    border-radius: 15px;
+}
+
+figure {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #262E38;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 24px;
+    color: white;
+    font-size: 24px;
+}
+
+p {
+    margin-top: 16px;
+    color: #969FAD;
+    font-size: 14px;
+}
+
+ul {
+    margin: 16px 0 24px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    width: 42px;
+    height: 42px;
+    list-style-type: none;
+    background-color: #262E38;
+    color: #969FAD;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    padding: 16px 104px;
+    background-color: #FC7614;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1.87px;
+    color: #131518;
+    border: none;
+    border-radius: 22px;
+}
+
+@media screen and (min-width: 728px) {
+    main {
+        width: 412px;
+        padding: 34px 30px;
+        border-radius: 30px;
+    }
+
+    figure {
+        width: 48px;
+        height: 48px;
+    }
+
+    h1 {
+        margin-top: 32px;
+        font-size: 28px;
+    }
+
+    p {
+        margin-top: 16px;
+        font-size: 15px;
+    }
+
+    ul {
+        margin: 16px 0 32px;
+    }
+
+    li {
+        width: 51px;
+        height: 51px;
+        cursor: pointer;
+    }
+}
+
+.appreciation-container {
+    background: linear-gradient(to right, #232A34, #181E27);
+    width: 327px;
+    padding: 28px 24px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.appreciation-container img {
+    width: 144px;
+    height: 96px;
+}
+
+.appreciation-container section {
+    margin: 24px 0 24px;
+}
+
+.appreciation-container section p {
+    color:#FC7614;
+    font-size: 14px;
+}
+
+.appreciation-container h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.appreciation-container p {
+    font-size: 14px;
+    color: #969FAD;
+}
+
+
+
+
