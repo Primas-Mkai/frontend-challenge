@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Password Generator</h1>
+
+    <div class="input-wrapper">
+      <input type="text" name="password" id="password" placeholder="P4$5W0rD!">
+      <span id="copyText"><img src="assets/images/icon-copy.svg" alt="copy icon"></span>
+    </div>
+
+    <section>
+      <div class="character-container">
+        <div class="character-length">
+          <p>Character length</p>
+          <p id="character-number">0</p>
+        </div>
+        <input type="range" id="myRange" class="slider" min = "1" max="30" value="0">
+      </div>
+
+      <ul>
+        <li>
+          <label>
+            <input type="checkbox" id="checkbox1"><span>Include Uppercase Letters</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" id="checkbox2"><span>Include Lowercase Letters</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" id="checkbox3"><span>Include Numbers</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" id="checkbox4"><span>Include Symbols</span>
+          </label>
+        </li>
+      </ul>
+
+      <div class="container">
+        <div class="strength-container">
+          <p>STRENGTH</p>
+
+          <div class="strength-bars-containers">
+            <span id="strength"></span>
+            <div class="strength-bars"></div>
+            <div class="strength-bars"></div>
+            <div class="strength-bars"></div>
+            <div class="strength-bars"></div>
+          </div>
+        </div>
+      
+        <button type="submit">
+          <span>GENERATE</span>
+          
+          <img src="assets/images/icon-arrow-right.svg" alt="arrow icon">
+        </button>
+        
+      </div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
